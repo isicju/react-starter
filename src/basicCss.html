@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+
+    .firstClass{
+        background-color: antiquewhite;
+        border-style: solid;
+    }
+
+    .firstClass:hover{
+        background-color: white;
+        cursor:pointer;
+    }
+
+    .firstClass.secondClass{
+        background-color: red;
+    }
+
+    .secondClass > {
+        background-color: aqua;
+    }
+
+    #A2:hover{
+        cursor: e-resize;
+    }
+
+    div > div{
+        background-color: cornflowerblue;
+    }
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="A1" class="firstClass">
+    A1
+</div>
+<div id="B1" class="firstClass">
+    B1
+</div>
+<div id="C1" class="firstClass">
+    C1
+</div>
+
+<div id="A2" class="secondClass">
+    A2
+</div>
+<div id="B2" class="secondClass">
+    B2
+</div>
+<div id="C2" class="secondClass">
+    C2
+    <div>
+        C2 child
+    </div>
+    <div>
+        C2 child
+    </div>
+</div>
+
+<div id="A3" class="firstClass secondClass">
+    A3
+</div>
+</body>
+</html>
